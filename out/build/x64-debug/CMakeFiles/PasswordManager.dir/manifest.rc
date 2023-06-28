@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/galag/source/repos/PasswordManager/out/build/x64-debug/CMakeFiles/PasswordManager.dir/embed.manifest"
