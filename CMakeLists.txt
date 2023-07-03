@@ -7,8 +7,8 @@ project ("PasswordManager")
 add_executable (PasswordManager "PasswordManager.cpp" "PasswordManager.h")
 
 # Установка переменной "CMAKE_PREFIX_PATH" для указания пути к установленным библиотекам cryptopp и unofficial-sqlite3.
-set(CMAKE_PREFIX_PATH "C:/vcpkg/vcpkg/installed/x64-windows/share/cryptopp")
-set(CMAKE_PREFIX_PATH "C:/vcpkg/vcpkg/installed/x64-windows/share/unofficial-sqlite3")
+set(CMAKE_PREFIX_PATH "path to/vcpkg/installed/x64-windows/share/cryptopp")
+set(CMAKE_PREFIX_PATH "path to/vcpkg/installed/x64-windows/share/unofficial-sqlite3")
 
 # Используются для поиска и загрузки установленных библиотек cryptopp и unofficial-sqlite3.
 find_package(cryptopp REQUIRED)
